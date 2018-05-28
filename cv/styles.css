@@ -4,39 +4,6 @@ h1{
 
 }
 
-h1{
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-h2{
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 .rightbox{
 	display: inline-block;
@@ -95,7 +62,7 @@ h2{
 }
 header {
 	margin-right: 50px;
-	font-family: Arial.
+	font-family: Arial;
 }
 
 p {
@@ -143,12 +110,20 @@ h2{
 
 }
 
-.compétences {
+.block4{
+	margin-top: 10px;
+}
+
+.block5{
+	margin-top: 10px;
+}
+
+.competences {
 	margin-top: 50px;
 	margin-left: 30px;
 }
 
-.compétences  p {
+.competences  p {
 	margin-left: 0px;
 }
 
@@ -158,14 +133,11 @@ h2{
 }
 
 
+
 .EP p{
 	margin-left: 0px;
 }
 
-.EP h1{
-	margin-left: 20px;
-	
-}
 
 .DETF{
 	margin-top: 50px;
@@ -182,8 +154,41 @@ li{
 	margin-left: 30 px;
 }
 
-.compétences h1 {
-	margin-left: 20px;
+
+h1{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forward;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 50px;
+    width: 100%;
+  }
+}
+
+h2{
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forward;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 50px;
+    width: 100%;
+  }
 }
 
 	

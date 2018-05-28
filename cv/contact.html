@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>formulaire de contact</title>
+        <meta charset="UTF-8">
+        <script language="JavaScript">
+    /Fonction verifier formulaire/
+    function verifForm(formulaire)
+    {
+        if(formulaire.nom.value == "" || formulaire.email.value == ""){
+            formulaire.envoyer.disabled=true;}
+        if(formulaire.nom.value != "" && formulaire.email.value != ""){
+            formulaire.envoyer.disabled=false;}
+    }
+    </script>
+<body onload="verifForm(formA)">
+    </head>
+    <body>
+        <form id="formulaire" action="mailto:khemiri.haikel@gmail.com?subject=Message du BOT cv.rouaix.com" method="post"  ENCTYPE="text/plain"> "> n'hésité pas à me contacter</A> ">
+        <p>
+        <label for "email"> email :</label>
+        <input type = "text" id="email" name="email"/>
+        <div id="message"></div>
+        </p>
+        <p>
+        <label for "nom"> nom :</label>
+        <input type = "text" id="nom" name="nom"/>
+        <div id="message"></div>
+        </p>
+        <p>
+        <label for "prénom> prénom :</label>
+        <input type = "text" id="prénom" name="prénom"/>
+        <div id="message"></div> 
+        </p>
+        <p>
+        <label for "objet"> objet :</label>
+        <input type = "text" id="objet" name="objet"/>
+        <div id="message"></div>
+        </p>
+        <p>
+        <label for="message">veuillez saisir votre message</label><br />
+        <textarea name="message" id="message"></textarea>
+        </p>
+        <p>
+        <input type="reset" value="Recommencer" />
+        <input type="submit" value="Envoyer" />
+        </p>
+        </form>
+    </body>
+</html>
+
+<!--
+rechercher les different types de saisie dans les formulaire 
+
+quel sont les types de champs de saisie dont je vais avoir besoin pour l'exercice 
+
+-->
