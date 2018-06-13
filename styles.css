@@ -1,7 +1,7 @@
 h1{
 	font-family: Arial;
 	margin-left: 50px;
-
+    
 }
 
 h1{
@@ -16,7 +16,7 @@ h1{
   }
 
   to {
-    margin-left: 0%;
+    margin-left: 2%;
     width: 100%;
   }
 }
@@ -33,7 +33,7 @@ h2{
   }
 
   to {
-    margin-left: 0%;
+    margin-left: 2%;
     width: 100%;
   }
 }
@@ -42,7 +42,7 @@ h2{
 	display: inline-block;
 	float: right;
 	border: 2px black solid;
-	border-radius: 5%;
+	border-radius: 1%;
 }
 
 .info{
@@ -193,5 +193,6 @@ li{
 .competences h1 {
 	margin-left: 20px;
 }
+
 
 	
